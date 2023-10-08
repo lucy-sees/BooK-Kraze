@@ -3,8 +3,8 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
-import { BackButton } from '../components/backButton';
-import { Spinner } from '../components/Spinner'
+import BackButton  from '../components/backButton';
+import Spinner from '../components/Spinner';
 
 const ShowBook = () => {
     const [book, setbook] = useState([]);
