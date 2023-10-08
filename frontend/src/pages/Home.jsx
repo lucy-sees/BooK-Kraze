@@ -67,15 +67,15 @@ const Home = () => {
 
                 <td className='border border-slate-700 rounded-md text-center'>
                   <div className='flex justify-center gap-x-4'>
-                    <Link to={`./books/details/${books.id}`}>
+                    <Link to={`./books/details/${books._id}`}>
                       <BsInfoCircle className='text-2xl text-green-800' />
                     </Link>
 
-                    <Link to={`./books/edit/${books.id}`}>
+                    <Link to={`./books/edit/${books._id}`}>
                       <AiOutlineEdit className='text-2xl text-yellow-600' />
                     </Link>
 
-                    <Link to={`./books/delete/${books.id}`}>
+                    <Link to={`./books/delete/${books._id}`}>
                       <MdOutlineDelete className='text-2xl text-red-600' />
                     </Link>
                   </div>
