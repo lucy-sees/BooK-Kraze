@@ -19,4 +19,4 @@ BackButton.propTypes = {
   destination: PropTypes.string.isRequired, // Define the PropTypes for 'destination'
 };
 
-export default BackButton
+export default BackButton;
