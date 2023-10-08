@@ -20,12 +20,12 @@ const CreateBook = () => {
     setLoading(true);
     axios
       .post('http://localhost:5555/books', data)
-      .then((response) => {
+      .then(() => {
         setLoading(false);
         navigate('/');
       })
       .catch((error) => {
-        console.log(error);
+        setLoading(false);
         alert("Error happened. Please check console for more information.");
         console.log(error);
       });
